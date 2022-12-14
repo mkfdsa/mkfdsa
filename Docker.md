@@ -16,5 +16,5 @@
  - `docker exec -it コンテナ名 bash`  
   	動作しているコンテナに入る
  
- - `docker container port コンテナ名`  
+ - `docker port コンテナ名`  
   コンテナ内で、公開されているポート番号がホスト側のどのポート番号にマッピングされているか確認  

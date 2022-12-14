@@ -1,10 +1,20 @@
-- 👋 Hi, I’m @mkfdsa
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+## Docker 使用したコマンドまとめ
 
-<!---
-mkfdsa/mkfdsa is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- `docker ps`  
+  起動中のコンテナの一覧を出力  
+`-a`のオプションを追加することで、すべてのコンテナの一覧が出力される  
+ 
+ - `docker container run`  
+  「イメージの取得」「コンテナの作成」「コンテナの起動」を連続して行う
+  
+ - `docker start <コンテナ名 or コンテナID>`  
+  	コンテナを起動
+    
+ - `docker stop <コンテナ名 or コンテナID>`  
+  	コンテナを停止
+    
+ - `docker exec -it コンテナ名 bash`  
+  	動作しているコンテナに入る
+ 
+ - `docker container port コンテナ名`  
+  コンテナ内で、公開されているポート番号がホスト側のどのポート番号にマッピングされているか確認  

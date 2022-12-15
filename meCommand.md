@@ -5,3 +5,23 @@ Firewall設定を確認してHTTPポートが解放されているか
 
 
 ## Linux コマンドまとめ
+
+https://www.bioerrorlog.work/entry/install-nmap-on-windows
+
+## Network 系 コマンドまとめ
+
+- __nmap__ 特定のローカルIPアドレスの開放されているポートの確認  
+    - インストール方法  
+        - Windows
+        [windows側のインストール手順](https://www.bioerrorlog.work/entry/install-nmap-on-windows)  
+        - Linux (ubuntu)
+        `sudo apt-get install nmap`
+        - Centos
+        `sudo yum install nmap`
+    - バージョン確認  
+    `nmap --version`
+    - 特定のIPアドレスへのポートスキャン  
+    `nmap 特定のIPアドレス`
+    - その他コマンド  
+    [外部URL](https://www.itbook.info/web/2015/06/nmap%E3%81%AE%E5%AE%9F%E7%94%A8%E7%9A%84%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%8910%E9%81%B8.html)
+- d

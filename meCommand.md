@@ -2,7 +2,8 @@
 
 - `sudo firewall-cmd --list-all --permanent`  
 Firewall設定を確認してHTTPポートが解放されているか
-
+- ポートが開いているか確認
+`Test-NetConnection -ComputerName 相手のIPアドレス -Port 確認するポート番号`
 
 ## Linux コマンドまとめ
 
@@ -24,4 +25,7 @@ https://www.bioerrorlog.work/entry/install-nmap-on-windows
     `nmap 特定のIPアドレス`
     - その他コマンド  
     [外部URL](https://www.itbook.info/web/2015/06/nmap%E3%81%AE%E5%AE%9F%E7%94%A8%E7%9A%84%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%8910%E9%81%B8.html)
-- d
+
+## その他 有用サイト
+- グローバルIPのどのポートが開放されているか確認できる
+[shodan](https://www.shodan.io/)

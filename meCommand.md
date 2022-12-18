@@ -48,4 +48,5 @@ https://www.bioerrorlog.work/entry/install-nmap-on-windows
 [shodan](https://www.shodan.io/)
 
 ## ネットワーク系　知識全般
-- localhost = 127.0.0.1 ほぼ同意味
+- localhost = 127.0.0.1 ほぼ同意味  
+- docker 内でサーバー立てている場合 localhost = host.docker.internal も一緒

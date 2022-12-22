@@ -20,12 +20,18 @@ Firewall設定を確認してHTTPポートが解放されているか
 - ポートが開いているか確認  
 `Test-NetConnection -ComputerName 相手のIPアドレス -Port 確認するポート番号` 
 
-- 
+- ルーティングテーブルを表示・変更する  
+`route print`  https://sap-inc.co.jp/pcsetup
+
+- ネットワーク経路をリスト表示する  
+`tracert グローバルIP or URL`  
+
+- ネットワーク接続状況を確認する  
+`netstat -a`
 
 ## Linux コマンドまとめ
 - traceroute google.com
-- ネットワーク経路をリスト表示する
-`tracert グローバルIP or URL`
+
 
 https://www.bioerrorlog.work/entry/install-nmap-on-windows
 

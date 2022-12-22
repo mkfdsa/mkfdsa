@@ -18,11 +18,14 @@ Firewall設定を確認してHTTPポートが解放されているか
   3. 2で見つけたPIDをタスクマネージャーから探して、アプリケーションを調べる
 
 - ポートが開いているか確認  
-`Test-NetConnection -ComputerName 相手のIPアドレス -Port 確認するポート番号`  
+`Test-NetConnection -ComputerName 相手のIPアドレス -Port 確認するポート番号` 
+
+- 
 
 ## Linux コマンドまとめ
 - traceroute google.com
-- 
+- ネットワーク経路をリスト表示する
+`tracert グローバルIP or URL`
 
 https://www.bioerrorlog.work/entry/install-nmap-on-windows
 

@@ -32,6 +32,9 @@ Firewall設定を確認してHTTPポートが解放されているか
 ## Linux コマンドまとめ
 - traceroute google.com
 
+- ファイル名変更
+`mv 変更前のファイル名 変更後のファイル名`
+
 
 https://www.bioerrorlog.work/entry/install-nmap-on-windows
 

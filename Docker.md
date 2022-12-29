@@ -29,3 +29,13 @@
  `docker cp [オプション] ローカル・パス コンテナ:パス`  
  - コンテナからローカルへ CP  
  `docker cp [オプション]  コンテナ:パス ローカル・パス`
+ 
+ ### Windows版Docker 種類
+ - DockerDeskTop(WSL2版)  
+ 仮想化:Hyper-V
+ - DockerDeskTop(Hyper-V版)  
+ 仮想化:Hyper-V(OSエディションが制限される)
+ - Docker Toolbox  
+ 仮想化:VirtualBox
+ 
+ 

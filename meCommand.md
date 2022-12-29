@@ -3,6 +3,11 @@
 - `sudo firewall-cmd --list-all --permanent`  
 Firewall設定を確認してHTTPポートが解放されているか
 
+- 物理ネットワークアダプターの一覧を取得  
+`Get-NetAdapter`  
+
+
+
 ## cmd コマンドまとめ
 - windows内のアプリケーションによって開放されているポート確認方法  
  1. 現在開放されているポートの確認  
